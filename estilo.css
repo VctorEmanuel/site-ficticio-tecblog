@@ -44,6 +44,7 @@ h1 {
     color: white;
     padding: 20px 20px;
     background: #f7b600;
+    border-radius: 20px;
 }
 
 #cabecalho a:active,#cabecalho a:hover {
@@ -51,7 +52,7 @@ h1 {
     background: white;
 }
 
-/* Conteúdo geral */
+/* Main content */
 
 #conteudo { 
     width: 920px; 
@@ -70,7 +71,7 @@ h1 {
     padding: 20px;
 }
 
-/* Conteúdo esquerda */
+/* Left content */
 
 #conteudo-esquerda {
     width: 660px;
@@ -99,8 +100,6 @@ h1 {
     color: black;
     text-decoration: underline;
 }
-
-/* Conteúdo direita */
 
 #conteudo-direita {
     width: 240px;
