@@ -1,0 +1,135 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    font-size: 1em;
+    font-family: 'Trebuchet MS', 'Helvetica', sans-serif;
+    background-color: #CCC;
+}
+
+a {
+    text-decoration: none;
+    color: #f7b600;
+    text-align: center;
+    font-size: 1.1em;
+}
+
+/* Formatação do cabeçalho */
+
+#cabecalho {
+    margin: 0 auto;
+}
+
+h1 {
+    color: rgb(78, 49, 49);
+}
+
+.titulo, .navegacao {
+    background: #f7b600;
+    font-size: 1.3em;
+    font-weight: 750;
+    text-align: center;
+    padding: 24px;
+}
+
+.navegacao {
+    font-size: 1.1em;
+}
+
+/* Formatação de links da navegação */
+
+#cabecalho a:link,#cabecalho a:visited {
+    color: white;
+    padding: 20px 20px;
+    background: #f7b600;
+}
+
+#cabecalho a:active,#cabecalho a:hover {
+    color: #f7b600;
+    background: white;
+}
+
+/* Conteúdo geral */
+
+#conteudo { 
+    width: 920px; 
+    margin: 0 auto;
+}
+
+#conteudo-esquerda, #conteudo-direita {
+    background: white;
+    margin: 20px 0px 0px 0px;
+}
+
+#rodape {
+    clear: both;
+    text-align: center;
+    background: #CCC;
+    padding: 20px;
+}
+
+/* Conteúdo esquerda */
+
+#conteudo-esquerda {
+    width: 660px;
+    float: left;
+}
+
+.postagem-esquerda {
+    padding: 10px;
+}
+
+.postagem-esquerda h2 {
+    color: #f7b600;
+}
+
+.postagem-esquerda img {
+    padding: 12px 0px;
+}
+
+#conteudo a:link,#conteudo a:visited {
+    font-size: 1em;
+    color: #f7b600;
+    text-decoration: none;
+}
+
+#conteudo a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+/* Conteúdo direita */
+
+#conteudo-direita {
+    width: 240px;
+    float: right;
+    padding: auto;
+}
+
+#conteudo-direita h2 {
+    color: rgb(78, 49, 49);
+    font-size: 1.3em;
+    background: rgb(190, 185, 185);
+    margin: 8px;
+    padding: 4px;
+}
+
+#conteudo-direita p, #conteudo-direita hr{
+    width: 95%;
+    margin: 7px auto;
+}
+
+#conteudo-direita a:link, #conteudo-direita a:visited {
+    font-size: 1em;
+    color: #f7b600;
+    text-decoration: none;
+    width: 95%;
+    padding: 10px 6px;
+}
+
+#conteudo-direita a:hover {
+    color: black;
+    text-decoration: underline;
+}
